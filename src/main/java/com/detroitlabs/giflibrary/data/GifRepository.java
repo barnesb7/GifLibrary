@@ -61,5 +61,17 @@ public class GifRepository {
         return favoriteGifs;
     }
 
+    public List<Gif> getGifsBySearch(String searchValue){
+
+        List<Gif> searchResults = new ArrayList<>();
+
+        for(Gif gif : ALL_GIFS){
+            if(gif.getName().contains(searchValue)){
+                searchResults.add(gif);
+            }
+        }
+
+        return searchResults;
+    }
 
 }
