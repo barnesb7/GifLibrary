@@ -35,7 +35,6 @@ public class GifController {
 //        return "category";
 //    }
 
-
 //    @RequestMapping("/categories")
 //    public String displayCategories(){
 //        return "categories";

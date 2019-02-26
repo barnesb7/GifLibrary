@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84f35609-3a15-4c2f-94d0-748a1fb39b84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/gif-search-results.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/WhitePageController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/giflibrary/controller/SearchDirectoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/giflibrary/controller/SearchDirectoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/giflibrary/data/GifRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/giflibrary/data/GifRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/searchdirectory.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/searchdirectory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/SearchDirectoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/SearchDirectoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/data/GifRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/data/GifRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/searchdirectory.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/searchdirectory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/giflibrary/controller/GifController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/detroitlabs/giflibrary/controller/GifController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/GifController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/GifController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -46,46 +42,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/model/Category.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/GifController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#264#265#0" expanded="true" />
-                <element signature="e#297#298#0" expanded="true" />
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/category.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="998">
-              <caret line="77" column="84" selection-start-line="77" selection-start-column="84" selection-end-line="77" selection-end-column="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/gif-details.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="762">
-              <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/CategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
+            <state relative-caret-position="314">
               <caret line="41" selection-start-line="41" selection-end-line="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,11 +53,48 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/CategoryController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/WhitePageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.3.RELEASE/5759c931e1287f82d132f37fcb14c396836ee42/spring-boot-2.1.3.RELEASE-sources.jar!/org/springframework/boot/web/servlet/error/ErrorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+            <state relative-caret-position="71">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -116,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/searchdirectory.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="262">
-              <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -124,8 +120,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/SearchDirectoryController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+            <state relative-caret-position="338">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +155,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -182,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/favorites.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/data/CategoryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/model/Gif.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/GifController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/model/Category.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/categories.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/CategoryController.java" />
@@ -192,14 +187,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/data/GifRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/SearchDirectoryController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/GifController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/WhitePageController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-39" />
-    <option name="y" value="60" />
+    <option name="y" value="155" />
     <option name="width" value="1440" />
-    <option name="height" value="813" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -299,10 +295,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="giflibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -319,7 +311,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551210286368" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551216423732" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -372,15 +364,15 @@
       <option name="presentableId" value="Default" />
       <updated>1551111527393</updated>
       <workItem from="1551111531189" duration="3265000" />
-      <workItem from="1551118559356" duration="26511000" />
+      <workItem from="1551118559356" duration="29395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29776000" />
+    <option name="totallyTimeSpent" value="32660000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-39" y="60" width="1440" height="813" extended-state="0" />
+    <frame x="6" y="311" width="1440" height="698" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
@@ -393,17 +385,17 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28016645" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27887788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32916668" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.37864077" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.14191419" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32732317" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32673267" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
@@ -413,7 +405,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info active="true" anchor="right" id="Gradle" order="6" visible="true" weight="0.05865522" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.05865522" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -505,16 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/GifController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/model/Category.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -528,16 +510,6 @@
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#423#424#0" expanded="true" />
             <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/CategoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -580,27 +552,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/searchdirectory.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/SearchDirectoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="338">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/searchdirectory.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/GifController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="43" column="10" lean-forward="true" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        <state relative-caret-position="314">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="44" column="10" lean-forward="true" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="10" />
+        <state relative-caret-position="224">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/2.1.3.RELEASE/5759c931e1287f82d132f37fcb14c396836ee42/spring-boot-2.1.3.RELEASE-sources.jar!/org/springframework/boot/web/servlet/error/ErrorController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/detroitlabs/giflibrary/controller/WhitePageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
